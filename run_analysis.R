@@ -66,4 +66,4 @@ selected_labeled<-merge(selected,activityLabels,by="activityId",all.x=TRUE)
 #Creating the tidy data with averages with Acitivity Ids and sujectIds
 
 tidy_data<-aggregate(. ~subjectId  + activityType, data= selected_labeled, mean)
-write.table(tidy_data,"tidy_data.txt",row.names=FALSE)
+write.table(tidy_data,"averages_data.txt",row.names=FALSE)
