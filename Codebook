@@ -1,0 +1,17 @@
+Information 
+
+The script named run_analysis.R performs steps desciribed in course's assignment page
+
+First all related data in columns are merged by using cbind() function. Then rbind() is used to append both test and train data 
+together. 
+
+After this step only those columns mean and std dev measure are filtered from the dataset. Consequently acitivity labels are substituted to data
+Finally (30 X 6) Subject X activities dataset with means for each subject and activity type is extracted from data
+
+Variables
+
+x_train, y_train, x_test, y_test, features, subject_train and subject_test are data downloaded from the web page
+train, test, append_all are the data created for merging all of the data, append_all merges both train and test dataset
+
+finally tidy_data includes aversages by groups. 
+
