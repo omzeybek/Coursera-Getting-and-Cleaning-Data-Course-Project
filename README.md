@@ -9,11 +9,13 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 
 Description of the Files Shared: 
 
+This repository includes 4 files. 
+
 Codebook.md includes variables names and the all transformations done during data preparation proccess 
 
 run_analysis.R includes script used for data manipulation 
 
-finally averages_data.txt includes results 
+finally averages_data.txt includes results in tidy data format
 
 
 
