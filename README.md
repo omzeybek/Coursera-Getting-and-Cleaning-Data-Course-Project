@@ -13,7 +13,7 @@ Codebook.md includes variables names and the all transformations done during dat
 
 run_analysis.R includes script used for data manipulation 
 
-finally avg.txt includes results 
+finally averages_data.txt includes results 
 
 
 
